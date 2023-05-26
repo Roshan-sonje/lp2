@@ -12,9 +12,9 @@ def binary_search(arr, target):
         else:
             high = mid - 1
 
-    return -1  # Target not found
+    return -1  
 
-# Example usage:
+# Example:
 arr = [1, 3, 5, 7, 9, 11, 13]
 target = 9
 result = binary_search(arr, target)
